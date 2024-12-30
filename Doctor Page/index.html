@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Doctor's Dashboard - Healthcare Platform</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+        <div class="logo">Dr. Ravi's Dashboard</div>
+        <ul>
+            <li><a href="#dashboard">Dashboard</a></li>
+            <li><a href="#patient-records">Patient Records</a></li>
+            <li><a href="#appointments">Appointments</a></li>
+            <li><a href="#health-alerts">Health Alerts</a></li>
+            <li><a href="#analytics">Analytics</a></li>
+            <li><a href="#settings">Settings</a></li>
+            <li><a href="#logout" class="logout-btn">Logout</a></li>
+        </ul>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+        <!-- Dashboard Header -->
+        <header class="header">
+            <h1>Welcome, Dr. Ravi</h1>
+            <p>Access your patient records, manage appointments, and view real-time analytics here.</p>
+        </header>
+
+        <!-- Dashboard Overview Section -->
+        <section id="dashboard" class="content-section">
+            <h2>Dashboard Overview</h2>
+            <div class="overview-grid">
+                <div class="overview-item">
+                    <h3>New Appointments</h3>
+                    <p class="subscripts">5 upcoming today</p>
+                </div>
+                <div class="overview-item">
+                    <h3>Patient Follow-Ups</h3>
+                    <p>3 scheduled follow-ups</p>
+                </div>
+                <div class="overview-item">
+                    <h3>Health Alerts</h3>
+                    <p>2 high-priority alerts</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Patient Records Section -->
+        <section id="patient-records" class="content-section">
+            <h2>Patient Records</h2>
+            <p>Quick access to all patient information. Search, add, or update records as needed.</p>
+            <button class="btn-primary">Go to Patient Records</button>
+        </section>
+
+        <!-- Appointments Section -->
+        <section id="appointments" class="content-section">
+            <h2>Manage Appointments</h2>
+            <p>View and manage your upcoming appointments. Click below for a detailed schedule.</p>
+            <button class="btn-primary">View Appointments</button>
+        </section>
+
+        <!-- Health Alerts Section -->
+        <section id="health-alerts" class="content-section">
+            <h2>Health Alerts</h2>
+            <p>Monitor health alerts and critical notifications for patients requiring immediate attention.</p>
+            <button class="btn-primary">View Health Alerts</button>
+        </section>
+
+        <!-- Analytics Section -->
+        <section id="analytics" class="content-section">
+            <h2>Patient Analytics</h2>
+            <p>Access AI-driven insights and analytics on patient health trends and predictive health data.</p>
+            <button class="btn-primary">View Analytics</button>
+        </section>
+
+        <!-- Settings Section -->
+        <section id="settings" class="content-section">
+            <h2>Account Settings</h2>
+            <p>Manage your account preferences, notification settings, and security options.</p>
+            <button class="btn-primary">Go to Settings</button>
+        </section>
+    </main>
+</body>
+</html>
